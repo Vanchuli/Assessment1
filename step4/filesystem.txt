@@ -1,0 +1,17 @@
+Sistema de archivos (file system): Estructura organizativa que permite a una pc o dispositivo de almacenamiento guardar, organizar y acceder a datos.
+                                   Determina como se almacenan y organizan los archivos y como se accede a ellos en un dispositivo de almacenamiento, como un disco duro, unidad USB o tarjeta memoria.
+                                   Jerarquia de directorios (carpetas)
+                                   Mantienen también registro de metadatos asociados a los archivos (tamaño, fechas de creacion y modificacion, permisos de acceso, etc)
+                                   Ejemplos de sistemas de archivos: NTFS y FAT (windows), ext4 (Linux), HFS+ (macOS) 
+                                   
+Linux cuenta con sistema de archivos > ext4
+
+
+Inode (indice de nodo): Elemento fundamental en la estructura de sistema de archivos en sistemas Unix - Unix-like como Linux. 
+                        Cada archivo o directorio en un sistema de archivos Unix está asociado a un único inode, que contiene informacion importante sobre ese archivo o directorio:
+                        - Metadatos del archivo: los inodos almacenan informacion sobre tamaño, fechas creacion y modificacion, propietario, permisos de acceso y atributos especiales
+ 			- Punteros a bloques de datos: los inodos también contienen punterios a bloques de datos en el sistema de archivos que almacenan el contenido real del archivo.
+			- Numero de inodo: cada inodo se identifica mediante un numero de inodo unico dentro del sistema de archivos, lo que permite a usuarios y al so acceder a archivos y directorios 						 mediante referencias a este numero.
+			
+			Mantienen la integridad y eficiencia del sistema de archivos. Al utilizar sistema de inodos en un sistema de archivos, el so puede realizar un seguimiento 
+ 			eficiente de los archivos y directorios, asignar y liberar espacio de manera eficiente, garantizar seguridad y administracion de permisos de acceso. 

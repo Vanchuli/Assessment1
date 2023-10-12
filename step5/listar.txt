@@ -1,0 +1,16 @@
+ls -l
+
+ls > listar contenido de directorio 
+
+-l > con formato detallado, información adicional sobre los archivos y directorios dentro de una ruta especifica. 
+
+
+Columna de la izq: permisos del archivo o directiorio. Quién tiene permiso para leer (r), escribir (w) o ejecutar (x) el archivo o directorio y para qué usuario, propietario, grupo u otros
+Siguiente columna: numero de enlaces duros al archivo/directorio. Multiples nombres de archivos que apuntan al mismo inodo en el sistema de archivos. 
+Siguiente columna: nombre del propietario de archivo/directorio
+Siguiente columna: nombre del grupo al que peretenece el archivo/directorio
+Siguiente columna: tamaño del archivo en bytes
+Siguiente columna: fecha y hora de la ultima modificacion del archivo/directorio
+Siguiente columna: nombre del archivo/directorio
+
+

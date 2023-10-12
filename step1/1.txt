@@ -1,0 +1,21 @@
+                                                          What is an IP a mask and DNS What is a Gateway and a NAT
+
+> Protocolo de internet (IP) : Conjunto de reglas que gobiernan como deben formatearse, direccionarse, transmitirse, enrutar, recibirse paquetes de datos en una red. 
+                               Versiones principales de IP: IPv4, IPv6.
+
+> Máscara de subred/red (mask) : Componente clave en configuración de direcciones IP, se utiliza para dividir la red en subredes más pequeñas.
+                                 Se combina con una dirección IP para determinar qué parte de la dirección IP representa la red y cuál parte representa los hosts en esa red. 
+                                 Se compone de bits que están configurados en 1 para indicar parte de la red y 0 para indicar la parte del host.
+                                 Se utiliza para segmentar y organizar redes en una topologia de red más grande, facilita la gestion y enrutamiento de datos en la red.
+                                 Optimizar la eficiencia y control de tráfico en una red. 
+
+> Puerta de enlace (Gateway) : Dispositivo o software que actua como un puente o intermediario entre dos redes diferentes, permitiendo que los datos fluyan entre ellas.
+			       Sirve como punto de acceso o de entrada a otra red, como internet.
+
+> Sistema de nombres de dominio (DNS) : Sistema utilizado para traducir nombres de dominio legibles por humanos (www.ejemplo.com) en direcciones IP que las computadoras y servidores pueden entender
+                                        Ayuda a los usuarios a acceder a sitios web y otros recursos de internet al proporcionar una forma de asignar nombres de domino a sus respectivas direcciones IP.
+                                        
+                                        
+> Traducción de dirección de red (NAT) : Tecnologia utilizada en enrutadores y dispositivos de red para traducir direcciones IP privadas en una red local en una única direccion ip publica. 
+                                         Permite que varios dispositivos en la red local compartan una sola dirección IP pública cuando se conectan a internet. 
+                                     

@@ -1,0 +1,10 @@
+df -h
+
+df hace referencia a disk free y muestra las particiones de disco,junto con su cappacidad, uso y espacio disponible en un formato legible para humanos
+-h legible para humanos 
+
+du -sh 
+
+du hace referencia a disk usage > espacio en una ubicacion especifica (ej:directorio)
+
+-sh s > para resumen o estadistica de un archivo/directorio y h para legibilidad para humanos
