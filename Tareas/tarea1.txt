@@ -1,0 +1,83 @@
+Tarea 1: 
+
+* Tipos de redes
+* Seguridad DDOS
+* Disco, CPU, Memoria, Velocidad de internet
+* Virtual machine vs Docker (contenedores) 
+
+
+__________________________________________________________________________________________
+
+Tipos de redes: Cada una de ellas diseñadas para satisfacer necesidades especificas de comunicacion y conectividad.
+
+1. LAN (Red de Área Local): 
+- se utilizan para conectar dispositivos en un area geografica limitada, como una oficina, una casa o edificio. 
+- utilizadas para compartir recursos, como impresoras, archivos, conexiones a internet detro de una ubicacion especifica. 
+- las tecnologias LAN comunes incluyen Ethernet y Wi-Fi
+
+2. WAN (Red de Área Amplia):
+- conectan dispositivos a traves de areas geograficas mas extensas, como ciudades, paises o incluso a nivel global.
+- utilizadas para conectar sucursales de una empresa, compartir datos a larga distancia y acceder a recursos en linea.
+- internet es el ejemplo mas grande de una WAN
+
+3. MAN (Red de Área Metropolitana):
+- cubren una ciudad o region metropolitana y se utilizan para interconectar multiples sitios dentro de esa area.
+- son comunes en areas urbanas y se utilizan para servicios de telecomunicaciones y conectividad empresarial.
+
+4. PAN (Red de Área personal): 
+- cubren un area muy pequeña, generalmente alrededor de un dispositivo o persona.
+- conexión blueetooth entre un telefono y auriculares inalambricos o una conexion entre un teclado y una computadora.
+
+5. VLAN (Red de area local virtual):
+- redes logicas que crean una LAN fisica para dividirla en segmentos virutales. Esto permite separar grupos de dispositivos y gestionar el trafico de manera mas eficiente.
+
+6. Inalambrica (redes inalambricas)
+- Wifi, conectar dispositivos sin la necesidad de cables fisicos.
+
+
+________________________________________________________________________________________
+
+
+Ataque DDoS (Denegación de Servicio Distribuido) tipo de ataque cibernetico en el que un gran numero de dispositivos y computadoras (a menudo comprometidos) trabajan juntos para inundar un sistema o una red con trafico malicioso, con el objetivo de sobrecargarlos y provocar una interrpucion en los servidores. 
+Pueden ser perjudiciales para sitios webs, aplicaciones en linea, servicios de la nube y redes empresariales. 
+
+Estrategias para mitigar y protegerse contra estos ataques: 
+
+- Filtrado de tráfico: Utilizar sistemas de filtrado de tráfico y firewalls para bloquear o mitigar el tráfico no deseado. Esto puede incluir el uso de listas negras de direcciones IP conocidas por ser maliciosas. 
+- Balanceo de carga: Distribuir la carga del trafico entrante entre multiples servidores o centros de datos para evitar que un unico punto de fallo sea blanco de ataques.
+- Servicios de mitigacion DDoS: servicios que puedan detectar y bloquear el trafico malicioso antes que llegue a la red. 
+- Redundancia de ancho de banda: Asegurarse de que haya suficiente ancho de banda disponible para manejar grandes oleadas de trafico. Esto puede requerir la escabilidad de los servicios de hosting y la optimizacion de la infrastrcutura de red. 
+- Detenccion y alterta temprana: monitoreen el trafico y generen altertas cuando se detecten patrones de trafico sospechosos 
+- Planes de respuesta a incidentes
+- Protección de DNS
+- Actualizaciones de Software y seguridad
+- Limites de conexion y tasas de acceso 
+- Reglas de acceso y filtrado a nivel de aplicacion (Web Applicacition Firewalls) para bloquear solicitudes y trafico malisioso
+
+___________________________________________________________________________________________
+
+
+
+Componentes claves de un sistema informático:
+
+Disco duro: 
+
+- Dispositivo de almacenamiento que se utiliza para guardar datos a largo plazo. Puede almacenar archivos, programas, documentos y otros tipos de datos en un medio magnetico o de estado solido.
+- Pueden ser unidades internas (instaladas en la computadora) o unidades externas (conectadas a través de puertos USB u otros) 
+- Tienen una gran capacidad de almacenamiento pero son mas lentos en terminos de acceso a los datos en comparacion con otras tecnologias de almacenamiento como las unidades de estado solido (SSD)
+- Los datos se guardan en el disco duro incluso cuando la computadora está apagada, lo que permite el alamcenamiento de datos a largo plazo.
+
+CPU (unidad central de procesamiento):
+
+- es el cerebro de la computadora y se encarga de realizar las operaciones de procesamiento de datos. Ejecuta instrucciones y calculos, controla la ejecucion de programas y coordina las actividades del sistema. 
+- la velocidad de la CPU se mide en Hertz (Hz) o en GIgahercios (GHz). Una CPU más rapida puede realizar tareas mas rapidamente. 
+- La cpu puede tener multiples nuucleos (procesadores multiples en un solo chip) para manejar tareas en paralelo lo que mejora el rendmiento de tareas multitarea.
+- la CPU utiliza la memoria RAM para almacenar temporalemnete los datos con los que trabaja durante la ejecucion de programas. 
+
+Memoria (RAM-Memoria de acceso aleatorio):
+
+- es una forma de memoria volatil utilizada por la compitadora para almacenar datos y programas que están en uso actualemtne. Es un tipo de memoria de acceso rapido que permite un acceso rapido a los datos por parte de la CPU 
+- la cantidad de RAM en una computadora afecta su capacidad para ejecutar multiples programas y tareas al mismo tiempo. Cuanta mas RAM tenga, mas programas y datos puede manejar sin relentizarse.
+-a diferencia del disco duro, la memoria RAM es volatil,lo que signfiica que los datos se borran cuando la computadora se apaga o se reinicia. Se utiliza para el alamacenamiento temporal mientras se realizan operaciones y ejecutan programas. 
+- los datos se transfieren entre el disco duro y la ram cuando se necesitan, lo que permite que los programas se ejecuten de manera mas eficiente. 
+

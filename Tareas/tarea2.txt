@@ -1,0 +1,180 @@
+Tarea 2
+
+* Modelo OSI
+* Confianza 0
+* Iaas, Paas, Saas
+* HTTP, HTTPS (puertos) 
+* IP Pública e IP Privada
+
+________________________________________________________________________________
+
+
+Modelo OSI (Modelo de Interconexión de Sistemas Abiertos" 
+
+Marco conceptual que se utiliza para comprender cómo funcionan las redes de computadoras y como se comunican los dispositivos en una red. 
+Desarrollado por ISO (Organización Internacional de Normalización) y se compone de siete capas, cada una de las cuales tiene un conjunto específico de funciones y responsabilidades. 
+Ayuda a estandarizar la comunicación de redes y permite que los diferentes componentes de una red funcionen juntos de manera eficiente. 
+
+1- Capa física (Layer 1): Se encarga de la transmisión física de datos a través de un medio de comunicación, como cables o señales inalámbricas. Define aspectos como la topología de la red, 
+los voltajes y las velocidades de transmisión.
+
+2- Capa de enlace de datos (Layer 2): Se encarga de la transferencia confiable de datos entre dos nodos directamente conectados en la misma red. También se ocupa de la detencción y corrección de errores de la transmisión de datos. 
+
+3- Capa de red (Layer 3): Se encarga de la gestion de la conectividad y del enrutamiento de datos a través de una red. Aquí es donde se utilizan direcciones IP para determinar la ruta de los paquetes de datos. 
+
+4- Capa de trasporte (Layer 4): Proporciona servicios de extremo a extremo para el trasporte de datos, asegurando la entrega confiable y correccion de errores. El protocolo de control de transmisión (TCP) y el protocolo de datagramas de usuario (UDP) son ejemplos de protocolos de esta capa. 
+
+5- Capa de sesión (Layer 5): establece, administra y termina las sesiones de comunicacion entre dos dispositivos. También controla el dialogo entre las aplicaciones en ambos extremos. 
+
+6- Capa de presentación (Layer 6): se encarga de la traduccion, compresion y cifrado de datos para garantizar que la informacion sea presentable y comprensible en ambos extremos de la comunicacion.
+
+7- Capa de aplicación (Layer 7): la capa más alta y se relaciona directamente con las aplicaciones y servicios que utilizan los usuarios finales. Aqui es donde las aplicaciones de usuario se comunican a traves de protocolos como HTTP, FTP, SMTP y otros. 
+
+
+___________________________________________________________________________________
+
+
+Confianza 0 
+
+Sugiere que se considera que la tecnología en cuestión no es segura, no protege la privacidad o no es confiable en absoluto. 
+Violaciones de seguridad, filtraciones de datos, abusos de la privacidad o problemas técnicos graves.
+Tomar medidas para mejorar la seguridad, mantenerse informado sobre mejores practicas de seguridad y utilizar soluciones tecnologias de confianza. 
+
+___________________________________________________________________________________
+
+
+
+Iaas, Paas, Saas
+
+Son tres modelos de servicio en la nube que ofrecen diferentes niveles de responsabilidad y control sobre la infraestructura y las aplicaciones.
+
+IaaS (Infrastructura como Servicio)
+
+- Proporciona una infrastructura de TI virtualizada a tráves de la nube. Incluye recursos como máquinas virtuales, redes, almacenamiento y sistemas operativos.
+- Los usuarios de IaaS tienen un alto grado de control sobre la infrastructura subyacente y son responsables de administrar y mantener el sistema operativo, aplicaciones y datos.
+- Proveedores: AWS (Amazon Web Services), Microsoft Azure, GCP (Google Cloud Platform.
+
+
+PaaS (Plataforma como Servicio)
+
+- Nivel por encima de IaaS y proporciona una plataforma de desarrollo y despliegue para aplicaciones. Incluye herramientas y servicios para el desarrollo, prueba y despliegue de aplicaciones.
+- Se centran en desarrollar y gestionar aplicaciones, mientras que la infrastructura subyacente, incluido el sistema operativo y los servidores, está gestionada por el provedor de PaaS.
+- Proveedores: Heroku, Google App Engine, Mircosoft Azure App Service. 
+
+SaaS (Software como Servicio) 
+
+- NIvel más alto y ofrece aplicaciones completas a tráves de la nube. Los usuarios pueden acceder a software y servicios directamente a través de un navegador web sin necesidad de preocuparse por infrastructura o el mantenimiento. 
+- No tienen que preocuparse por la gestion de la infrastructura ni por las actualizaciones de software. Recae sobre el proveedor de SaaS. 
+- Ejemplo aplicaciones: Microsoft 365, Google Workspace, Salesforce, Dropbox. 
+
+
+La elección depende de las necesidades y recurosos de tu proyecto o negocio. Si deseas un mayor control y flexibilidad sobre la infrastructura y las aplicaciones IaaS podría ser la opcion correcta. 
+SI estás enfocado en el desarrollo de aplicaciones y deseas una plataforma de desarrollo simplificada, PaaS es una buena elección.
+Si simplemente necesitas utilizar aplicaciones sin preocuparte por la infraestructura SaaS seria lo mejor. 
+
+
+_________________________________________________________________________________
+
+HTTP (Protocolo de transferencia de Hipertexto) y HTTPS (HTTP Seguro)
+
+Dos protocolos utilizados para la transferencia de datos en la World Wide Web. Se utilizan para acceder a sitios web pero con algunas diferencias significativas en terminos de seguridad y cifrado.
+
+1) HTTP:
+
+- Protocolo estandar utilizado para transmitir datos en la web. Documentos HTML entre un servidor web y un navegador web.
+- No proporciona cifrado ni autenticación, los datos transferidos a través de HTTP no están protegidos y pueden ser interceptados o modificados por terceros. Vulnerable a ataques de intermediarios y robo de datos. 
+- Opera en el puerto 80 por defecto. 
+
+
+2) HTTPS:
+
+- Extensión segura de HTTP que utiliza cifrado para proteger la intregridad y la confidencialidad de los datos transmitidos entre el navegador y el servidor web.
+- Utiliza SSL (Secure Sockets Layer) o su sucesor,TLS (Transport Layer Security), para cifrar los datos y autenticar el servidor web, lo que garantiza que los datos no sean interceptados ni modificados en el tránsito
+- Los sitios web que usan HTTPS, muestran un candado o un indicador de seguridad en el navegador, la URL comienza con https en vez de http
+- HTTPS opera en el puerto 443 por defecto. 
+
+
+La principal diferencia radica en la seguridad y privacidad. HTTPS referido para sitios web que manejan información sensible, como datos de inicio de sesión, información de tarjeas de crédito, cualquier otro tipo de dato confidencial. 
+
+
+_______________________________________________________________________________
+
+
+IP pública y privada 
+
+Dos tiposirecciones utilizadas en redes de computadoras con propositos diferentes.
+
+1. Dirección IP publica: 
+- Dirección unica y globalmente accesible asignada a un dispositivo en una red publica, como Internet
+- SOn necesarias para que los dispositivos puedan comunicarse a traves de Internet y ser accesibles desde cualqueir parte del mundo. 
+- SOn administradas por IANA y se asignan a proveedores de servicios de Internet o empresas que distribuyen a sus clientes.
+- Cada dispositivo que se conecta a internet debe tener una dirección IP publica unica. 
+
+2. Dirección IP privada:
+-Dirección asignada a un dispositivo dentro de una red local o privada, como una red domestica o red de oficina. 
+- se utilizan para identificar dispositivos en una red local y permitir la comunicacion entre ellos. 
+- Estan reservadas y definidas en rangos especificos que no sepueden usar en el internet publico
+- son tipicamente reutilizables y no necesitan ser unicas a nivel mundial, ya que su alcance se limita a la red local a la que están configuradas. 
+
+Ejemplos de IP privadas segun direcciones IP (IPv4):
+
+- Clase A: 10.0.0.0 a 10.255.255.255
+- Clase B: 172.16.0.0 a 172.31.255.255
+- Clase C: 192.168.0.0 a 192.168.255.255
+
+Ejemplo: si tienes una red domestica, los dispositivos de tu red local (como computadoras, impresoras, telefonos) pueden tener direcciones IP privadas dentro de uno de estos rangos. 
+El enrutador de tu red realiza la traduccion de direcciones de red privada a una direccion IP publica unica cuando los dispositivos en tu red se comunican atraves de internet. 
+
+Las direcciones IP publicas son utilizadas para la comunicacion en Internet, mientras que las IP privadas se utilizan para la comunicacion interna en una red local. 
+El enrutador de la red es responsable de manejar la traduccion de direcciones entre las IP privadas y la IP publica. 
+
+
+
+IP (protocolo de internet o Internet protocol): conjunto de reglas y estandares que permiten la comunicacion y el intercambio de datos en redes de computadoras, especialmente en Internet.
+Se encarga de asignar direcciones unicas a cada dispositivo en una red (IP) lo que permite la identificacion y el direccionamiento de los dispositivos en la red. 
+Cada dispositivo que se conecta a internet o a una red local tiene una direccion IP que se utiliza para enrutar y entregar datos de un lugar a otro. 
+
+IPv4 > IPv6 
+
+Se utiliza para dividir y enrutar datos en paquetes a traves de una red, cada paquete contiene informacion de origen y destino en forma de direcciones IP.
+LOs routers y conmutadores en la red utilizan estas direcciones para determinar como reenviar los paquetes hacia su destino final. 
+Es la base de la comunicacion en redes de computadoras, incluyendo internet. Permite la identificacion unica de dispositivos en la red y el enrutamiento de datos entre ellos. 
+
+
+Internet: red global de computadoras interconectadas que se comunican atraves del IP y otros estandares de comunicacion. Es la infrastructura que permite la transferencia de datos, comunicacion, acceso a recursos en linea de todo el munod. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
