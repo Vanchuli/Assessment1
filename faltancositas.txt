@@ -1,4 +1,0 @@
-
-
-
-falta step5 > listar con ls -rta y lo que le sigue

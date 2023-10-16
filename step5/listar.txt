@@ -14,3 +14,10 @@ Siguiente columna: fecha y hora de la ultima modificacion del archivo/directorio
 Siguiente columna: nombre del archivo/directorio
 
 
+ls -rta 
+
+-r > muestra la lista de archivos y directorios en orden inverso (de manera descendente)
+-t > ordena la lista por tiempo de modificacion mostrando primero los archivos o directorios mas recientemente modificados 
+-a > muestra todos los archivos incluyendo los ocultos (los archivos cuyos nombres comienzan con punto) 
+
+
