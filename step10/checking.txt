@@ -1,0 +1,25 @@
+free > muestra infromacion sobre el uso de memoria del sistema. Detalles sobre la memoria fisica y la memoria de intercambio (swap) del sistema.
+       monitorear el uso de la memoria en un sistema, ayudar a diagnosticar problemas de rendimiento o determinar si necesitas ajustar configuracion de memoria.
+
+-b > muestra en bytes
+-k > muestra en kilobytes (predeterminado)
+-m > muestra en megabytes
+-g > muestra en gigabytes
+-t > muestra la suma total de la memoria
+
+uptime > muestra informacion sobre el tiempo que un sistema ha estado en funcionamiento y la carga promedio del sistema durante ese tiempo. Detalles sobre el tiempo transcurrido desde el ultimo inicio
+y la carga promedio del sistema en los ultimos 1,5, 15 minutos. Evaluar estado del sistema. Una carga promedio alta podria indicar que el sistema está experimientando una alta carga de trabajo y podria requerir atencion para mejorar el rendimiento. 
+
+hora del sistema
+tiempo que ha estado en funcionamiento
+indica numero de usuarios conectados
+load average: la carga promedio del sistema 
+
+
+top y ps ya agregados en otra tarea
+
+htop > herramienta de monitoreo, a diferencia de top, interfaz mas interactiva que permite ver y gestionar el rendimiento del sistema de una manera mas detallada. Proporciona informacion sobre CPU
+memoria, carga del sistema y procesos en ejecucion. 
+
+
+diferencia entre top y ps > top en tiempo real ps lista los procesos en un momento dado, top muestra una vista dinamica y en tiempo real

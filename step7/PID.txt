@@ -1,0 +1,16 @@
+PID > "Identificador de Proceso" en sistemas operativos y sistemas multitarea. 
+
+Es un numero único asignado a cada proceso en un sistema operativo para identificarlo de manera única. 
+Los procesos son programas o tareas en ejecución en un sistema informatico,como aplicaciones, servicios del sistema, tareas en segundo plano y más.
+
+Cada vez que se inicia un proceso en un sistema operativo, se le asigna un PID. Los PID son esenciales para administrar y supervisar procesos, ya que permiten a los usuarios y al sistema operativo
+realizar tareas como: 
+
+1. Control de procesos: iniciar, detener, reiniciar y administrar procesos utilizando comandos y utilidades del sistema operativo, generalmente proporcionando el PID del proceso como identificacion
+2. Monitoreo de rendimiento: utiles para monitorear el rendimiento del sistema al rastrear el consumo de recursos, como el uso de CPU y memoria, de procesos especificos.
+3. Depuracion: al depurar aplicaciones o problemas del sistema, los desarrolladores y administradores de sistemas a menudo utilizan PID para identificar y rastrear procesos especificos. 
+
+Numeros enteros no negativos, comienzan en 1 y aumentan secuencialmente.
+Para ver los PID en ejecucion puedes usar: ps (listar procesos) o top (monitorear procesos en tiempo real), tambien utilizar kill para enviar señales a un proceso y controlarlo mediante su PID. 
+
+

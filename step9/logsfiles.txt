@@ -1,0 +1,22 @@
+Logs files: los archivos de registro se utilizan para almacenar informacion relevante sobre el funcionamiento del sistema, eventos del sistema, errores, actividades de aplicaciones y más. 
+
+/var/log: Esta es la ubicacion principal para archivos de registro del sistema. Se encuentran variedad de archivos de registro como "messages (mensajes del sistema), "auth.log" (registros de autenticacion), "syslog" (registros del sistema) y otros archivos de servicios y aplicaciones. 
+
+Para mostrar los logs se utilizan: 
+
+1. Comando cat o less: cat para mostrar todo el contenido de un archivo de registro (log) 
+cat /var/log/syslog
+
+less (para ver los registros paginados) ayuda para la navegacion de registros largos. 
+
+less /var/log/syslog
+
+2. Comando tail: te permite ver las ultimas lineas de un archivo de registro en tiempo real
+
+tail -f /var/logs/syslog
+
+muestra ultimas lineas del archivo de registro y continuara mostrando nuevas lineas que se agreguen
+
+
+
+

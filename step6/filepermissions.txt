@@ -1,0 +1,32 @@
+Los archivos y directorios tienen atributos de permisos que controlan quien puede acceder, modificar y ejectuar esos elementos. 
+Se gestionan mediante una notacion que consta de letras y simbolos. 
+Se dividen en tres categorias: usuario propietario, grupo y otros. 
+
+1)- Permiso para el Usuario Propietario (u) 
+
+- r (read-lectura) ver el contenido del archivo o directorio
+- w (write-escritura) modificar o eliminar archivo o directorio 
+- x (execute-ejecucion) ejecutar el archvivo si es un programa o acceder al directorio si es un directorio
+
+2)- Permiso para el Grupo (g)
+
+- r (read-lectura) ver el contenido del archivo o directorio
+- w (write-escritura) modificar o eliminar archivo o directorio 
+- x (execute-ejecucion) ejecutar el archvivo si es un programa o acceder al directorio si es un directorio
+
+3)- Permiso para Otros (o) 
+
+- r (read-lectura) ver el contenido del archivo o directorio
+- w (write-escritura) modificar o eliminar archivo o directorio 
+- x (execute-ejecucion) ejecutar el archvivo si es un programa o acceder al directorio si es un directorio
+
+
+Ejemplo: 
+
+drwxr-xr-x > d indica directorio, los 3 siguientes caracteres rwx indica los permisos de usuario propietario (lectura, escritura y ejecucion), los siguientes 3 caracteres r-x indican permisos del grupo (lectura y ejecucion), y los ultimos 3 "r-x" indican permisos para otros (lectura y ejecucion) 
+
+Para cambiar permisos de un archivo o directorio, se utiliza "chmod"
+
+Ejemplo: 
+
+chmod u+w mi_archivo.txt > le da permisos de escritura para usuario propietario

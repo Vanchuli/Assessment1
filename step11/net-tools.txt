@@ -1,0 +1,23 @@
+net-tools
+
+coleccion de herramientas de linea de comando para diagnosticar y administrar redes en linux. 
+Han sido reemplazadas por utilidades más actuales como: ip, ss que formar marte del conjunto de herramientas de networking de iproute2
+
+
+Para mostrar informacion de la interfaz de red: 
+
+ip adress show
+
+Para mostrar tablas de enrutamineto 
+ 
+ip route show
+
+Para mostrar conexiones de red
+
+ss -tuln
+
+Para mostrar estadisticas de red
+
+ss -st
+
+Estas proporcionan mayor control y funcionalidad. 

@@ -1,0 +1,45 @@
+man > se utiliza para acceder a las paginas del manual del sistema. Documentacion detallada y ayuda para los comandos. Proporciona información sobre como usar, entender los comandos y programas. 
+
+man ls (documentacion detallada sobre comando ls)
+
+
+mkdir > se utiliza para crear directorios (carpetas). 
+
+mkdir mi_directorio > crear directorio en directorio actual
+mkdir (ubicacion especifica:ruta) crea en una ruta especifica
+mkdir -p directorio1/directorio2/directorio3 (crea directorios anidados) 
+
+
+rm > se utiliza para eliminar archivos y directorios
+
+-f (forzar eliminacion)
+-i (preguntar antes de eliminar cada archivo) 
+
+rm archivo.txt (elimina un archivo)
+rm archivo1.txt archivo2.txt archivo3.txt (elimina varios archivos) 
+rm -r mi_directorio (elimina directorio y todos sus archivos y subdirectorios dentro de él) forma recursiva
+rm -f archivo.txt (elimina archivo sin pedir confirmacion) 
+
+touch > se utiliza para crear archivos vacios o actualizar las marcas de tiempo de archivos existentes.
+
+touch archivo.txt (crea archivo vacio)
+touch archivo1.txt archivo2.txt archivo3.txt (crea varios archivos vacios)
+touch archivo_existente.txt (actualiza su marca de tiempo sin modificar su contenido)
+touch -t 202301011200 archivo.txt (establece marca de tiempo del archivo.txt en el 1 enero de 2023 a las 12 hrs)
+
+
+mv > se utiliza para mover o renombrar archivos y directorios.
+
+mv archivo.txt directorio/ (mueve archivo al directorio)
+mv archivo_viejo.txt archivo_nuevo.txt (renombra nombre archivo)
+mv archivo_viejo.txt directorio/archivo_nuevo.txt (mueve y renombra un archivo a la vez) 
+mv directorio_origen/ directorio_destino/ (mueve un directorio y su contenido)
+
+cp > se utiliza para copiar archivos y directorios de un lugar a otro
+
+cp archivo.txt directorio/ (copiar un archivo a un directorio)
+cp archivo_origen.txt archivo_destino.txt (copiar un archivo y renombrarlo en el proceso)
+cp -r directorio_origen/ directorio_destino/ (copiar un directorio y su contenido de manera recursiva)
+cp -i archivo.txt directorio/ (copiar archivos con confiramcion antes de sobreescribir)
+
+
